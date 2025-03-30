@@ -16,7 +16,7 @@ from mindx import rag
 # 使用预定义的rag实例
 q = "示例查询"
 ret = rag.query(q, image_only=True, file_type="JPEG")
-ret.write("/path/to/output.jpeg")  # 在这里按Ctrl+C会显示自定义错误
+ret.write("/path/to/output.jpeg")  # 在这里按Ctrl+C会显示错误
 
 # 或者创建自己的实例
 from mindx import RAG
